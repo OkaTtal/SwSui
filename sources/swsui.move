@@ -37,8 +37,8 @@ fun init(otw: SWSUI, ctx: &mut TxContext) {
 
     let values = vector[
         b"2048 game board".to_string(),
-        b"ipfs://bafybeighr4vxio3ibq56caivcfcck6vdngydexx6xylip26ksch7gmcvpa".to_string(),
-        b"https://ipfs.io/ipfs/bafybeighr4vxio3ib56caivcfcck6vdngydexx6xylip26ksch7gmcvpa".to_string(),
+        b"https://i.postimg.cc/9FcNTj40/2048-board.png".to_string(),
+        b"https://i.postimg.cc/9FcNTj40/2048-board.png".to_string(),
         b"SwSui 2048 board".to_string(),
         b"SwSui".to_string(),
     ];

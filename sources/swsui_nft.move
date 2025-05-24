@@ -6,7 +6,8 @@ use sui::display;
 use sui::event;
 use sui::package;
 use sui::url::{Self, Url};
-use swsui::swsui::GridLi;
+
+// use swsui::swsui::GridLi;
 
 public struct SwSui_NFT has key, store {
     id: UID,
@@ -32,8 +33,8 @@ fun init(otw: SWSUI_NFT, ctx: &mut TxContext) {
         b"Waves".to_string(),
         // For `link` one can build a URL using an `id` property
         // For `image_url` use an IPFS template + `image_url` property.
-        b"ipfs://bafkreiakul5pov7ajwuf3ubunhx62vqiivsty2jkyzaai3xhcjotee3fcu".to_string(),
-        b"https://ipfs.io/ipfs/bafkreiakul5pov7ajwuf3ubunhx62vqiivsty2jkyzaai3xhcjotee3fcu".to_string(),
+        b"https://i.postimg.cc/hjJ4Zt8x/swsui-nft.jpg".to_string(),
+        b"https://i.postimg.cc/hjJ4Zt8x/swsui-nft.jpg".to_string(),
         // Description is static for all `Hero` objects.
         b"SwSui NFT".to_string(),
         // Project URL is usually static
